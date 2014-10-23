@@ -34,10 +34,10 @@ var nopt = require('nopt')
 			'help'            : ' Halp the user.'
 		}
 	, defaults = {
-			'ssh-key-name'    : 'jane-fetch-aws-root',
-			'security-groups' : [ 'sg-d5f1a7b0', 'sg-5ca8f939' ],
-			'subnet'          : 'subnet-bd4d85ca',
-			'ami-id'          : 'ami-020bc76a',
+			'ssh-key-name'    : 'vpn',
+			'security-groups' : [ 'sg-3470b151' ],
+			'subnet'          : 'subnet-2d4c6b6b',
+			'ami-id'          : 'ami-98aa1cf0',
 			'instance-type'   : 't1.micro',
 			'protect'         : false,
 			'autoburn'        : false
